@@ -1,0 +1,18 @@
+{
+  "name": "rpc-file-size-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal OpenRewrite FileAttributes RPC numeric decoding reproducer.",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "README.md",
+    "sample-project/rpc-size-repro.txt"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@openrewrite/rewrite": "8.93.11"
+  }
+}
